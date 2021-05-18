@@ -22,7 +22,7 @@
   "author": "bitebit",
   "license": "MIT",
   "dependencies": {
-    "ajv": "^7.1.1",
+    "ajv": "^8.4.0",
     "decimal.js": "^10.2.0",
     "json-schema-migrate": "^1.1.0"
   },

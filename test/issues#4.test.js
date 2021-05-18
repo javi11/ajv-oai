@@ -21,10 +21,10 @@ describe('issues#4', () => {
     })).toBe(false);
     expect(validator.errors).toEqual([{
       keyword: 'required',
-      dataPath: '',
+      instancePath: '',
       schemaPath: '#/required',
       params: { missingProperty: 'foo' },
-      message: "should have required property 'foo'",
+      message: "must have required property 'foo'",
     }]);
   });
 });
